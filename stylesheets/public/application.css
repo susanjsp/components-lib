@@ -11,9 +11,10 @@
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
   border-radius: 50px;
   transition: 0.3s ease-in;
-  opacity: 0.9; }
+  opacity: 0.8; }
   .btn:hover {
-    opacity: 1; }
+    opacity: 1;
+    color: white; }
 
 .btn-main {
   background-color: #81cf7e; }
@@ -34,19 +35,19 @@
   .btn-add:hover {
     letter-spacing: 0.25em; }
 
-.searchbar {
+.searchbar-basic {
   display: inline;
   padding: 8px 24px;
   border: 0.8px solid gray;
   font-family: sans-serif; }
-  .searchbar[type=text] {
+  .searchbar-basic[type=text] {
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     border-right: none;
     position: relative;
     /* SET SEARCHBAR WIDTH */
     width: 350px; }
-  .searchbar[type=submit] {
+  .searchbar-basic[type=submit] {
     position: absolute;
     border-radius: 0px 20px 20px 0px;
     border-color: #66c272;
