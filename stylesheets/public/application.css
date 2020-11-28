@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-
-=======
 @charset "UTF-8";
-.btn {
+.btns {
   text-decoration: none;
   text-transform: uppercase;
   font-family: sans-serif;
@@ -15,29 +12,82 @@
   border-radius: 50px;
   transition: 0.3s ease-in;
   opacity: 0.8; }
-  .btn:hover {
+  .btns:hover {
     opacity: 1;
     color: white; }
 
-.btn-main {
+.btns-main {
   background-color: #81cf7e; }
 
-.btn-border {
+.btns-border {
   border: 1.5px solid black;
   box-shadow: none;
   color: black;
   padding: 12px 16px; }
-  .btn-border:hover {
+  .btns-border:hover {
     opacity: 0.5; }
 
-.btn-action {
+.btns-action {
   background-color: #ffe48a; }
 
-.btn-add {
+.btns-add {
   background: #4dfbe8;
   background: linear-gradient(90deg, rgba(77, 251, 232, 0.8440065681) 0%, rgba(154, 191, 242, 0.7569786535) 44%, rgba(240, 121, 253, 0.5599343186) 100%); }
-  .btn-add:hover {
+  .btns-add:hover {
     letter-spacing: 0.25em; }
+
+.card-container {
+  width: 350px;
+  box-shadow: 2px 2px 8px rgba(240, 240, 240, 0.8); }
+
+.card-image img {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 300px;
+  border-radius: 6px 6px 0px 0px; }
+
+.card-content {
+  font-size: 0.9em;
+  padding: 12px;
+  position: relative;
+  border-radius: 0px 0px 6px 6px; }
+  .card-content h5 {
+    margin-bottom: 4px; }
+  .card-content p {
+    margin-bottom: 4px; }
+
+.card-content-profile-rating {
+  position: absolute;
+  right: 8%;
+  top: -20%;
+  text-align: center; }
+
+.card-avatar {
+  object-fit: cover;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  border: 2px solid white; }
+
+.card-content-tags {
+  display: flex;
+  justify-content: flex-start; }
+
+.labels {
+  background-color: #b4b4b4;
+  border-radius: 20px;
+  border: none;
+  padding: 4px 12px;
+  color: grey;
+  margin-right: 4px;
+  text-decoration: none;
+  color: white;
+  transition: 0.3s ease-in; }
+  .labels:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #929292; }
 
 .sbar {
   display: inline;
@@ -4648,6 +4698,5 @@ readers do not read off random characters that represent icons */
   overflow: visible;
   position: static;
   width: auto; }
->>>>>>> c4965edc9729d5d2aac2b41b47fb4845c053e9e2
 
 /*# sourceMappingURL=application.css.map */

@@ -1,4 +1,4 @@
-.btn {
+.btns {
   text-decoration: none;
   text-transform: uppercase;
   font-family: sans-serif;
@@ -17,10 +17,10 @@
  }
 }
 
-.btn-main {
+.btns-main {
   background-color:#81cf7e;
 }
-.btn-border {
+.btns-border {
   border: 1.5px solid black;
   box-shadow: none;
   color: black;
@@ -29,11 +29,11 @@
     opacity: 0.5;
   }
 }
-.btn-action {
+.btns-action {
   background-color:rgba(255, 228, 138, 1);
 }
 
-.btn-add {
+.btns-add {
   background: rgb(77,251,232);
   background: linear-gradient(90deg, rgba(77,251,232,0.8440065681444991) 0%, rgba(154,191,242,0.7569786535303776) 44%, rgba(240,121,253,0.5599343185550082) 100%);
   &:hover {
