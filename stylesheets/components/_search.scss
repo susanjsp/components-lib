@@ -1,0 +1,59 @@
+$sbar-border-radius: 30px;
+$sbar-border-width: 0.8px;
+
+.sbar {
+  display: inline;
+  padding: 8px 24px;
+  font-family: sans-serif;
+  &[type=text] {
+    border: $sbar-border-width solid gray;
+    /* SET SEARCHBAR WIDTH */
+    width: 400px;
+  }
+}
+.sbar-basic {
+  &[type=text] {
+    border-radius: $sbar-border-radius 0px 0px $sbar-border-radius;
+    border-right: none;
+    position: relative;
+  }
+  &[type=submit] {
+    border-radius: 0px $sbar-border-radius $sbar-border-radius 0px;
+    border: solid $sbar-border-width rgb(102, 194, 114);
+    background-color: rgb(102, 194, 114);
+    color: whitesmoke;
+    position: absolute;
+  }
+}
+.sbar-reverse {
+  &[type=submit] {
+    border: solid $sbar-border-width rgb(102, 194, 114);
+    border-radius: $sbar-border-radius 0px 0px $sbar-border-radius;
+    position: relative;
+    background-color: rgb(102, 194, 114);
+    color: whitesmoke;
+  }
+  &[type=text] {
+    border-radius: 0px $sbar-border-radius $sbar-border-radius 0px;
+    position: absolute;
+    border-left: none;
+    padding-left: 6px;
+  }
+}
+.sbar-google {
+  &[type=submit] {
+    border-radius: $sbar-border-radius 0px 0px $sbar-border-radius;
+    position: relative;
+    border: $sbar-border-width solid gray;
+    border-right: none;
+    background-color: white;
+    color: grey;
+
+  }
+  &[type=text] {
+    border-radius: 0px $sbar-border-radius $sbar-border-radius 0px;
+    border-left: none;
+    position: absolute;
+    padding-left: 6px;
+  }
+}
