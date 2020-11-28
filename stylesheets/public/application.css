@@ -46,11 +46,11 @@
     width: 400px; }
 
 .sbar-basic[type=text] {
-  border-radius: 20px 0px 0px 20px;
+  border-radius: 30px 0px 0px 30px;
   border-right: none;
   position: relative; }
 .sbar-basic[type=submit] {
-  border-radius: 0px 20px 20px 0px;
+  border-radius: 0px 30px 30px 0px;
   border: solid 0.8px #66c272;
   background-color: #66c272;
   color: whitesmoke;
@@ -58,25 +58,25 @@
 
 .sbar-reverse[type=submit] {
   border: solid 0.8px #66c272;
-  border-radius: 20px 0px 0px 20px;
+  border-radius: 30px 0px 0px 30px;
   position: relative;
   background-color: #66c272;
   color: whitesmoke; }
 .sbar-reverse[type=text] {
-  border-radius: 0px 20px 20px 0px;
+  border-radius: 0px 30px 30px 0px;
   position: absolute;
   border-left: none;
   padding-left: 6px; }
 
 .sbar-google[type=submit] {
-  border-radius: 20px 0px 0px 20px;
+  border-radius: 30px 0px 0px 30px;
   position: relative;
   border: 0.8px solid gray;
   border-right: none;
   background-color: white;
   color: grey; }
 .sbar-google[type=text] {
-  border-radius: 0px 20px 20px 0px;
+  border-radius: 0px 30px 30px 0px;
   border-left: none;
   position: absolute;
   padding-left: 6px; }
