@@ -35,24 +35,50 @@
   .btn-add:hover {
     letter-spacing: 0.25em; }
 
-.searchbar-basic {
+.sbar {
   display: inline;
   padding: 8px 24px;
-  border: 0.8px solid gray;
   font-family: sans-serif; }
-  .searchbar-basic[type=text] {
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-right: none;
-    position: relative;
+  .sbar[type=text] {
+    border: 0.8px solid gray;
     /* SET SEARCHBAR WIDTH */
-    width: 350px; }
-  .searchbar-basic[type=submit] {
-    position: absolute;
-    border-radius: 0px 20px 20px 0px;
-    border-color: #66c272;
-    background-color: #66c272;
-    color: whitesmoke; }
+    width: 400px; }
+
+.sbar-basic[type=text] {
+  border-radius: 20px 0px 0px 20px;
+  border-right: none;
+  position: relative; }
+.sbar-basic[type=submit] {
+  border-radius: 0px 20px 20px 0px;
+  border: solid 0.8px #66c272;
+  background-color: #66c272;
+  color: whitesmoke;
+  position: absolute; }
+
+.sbar-reverse[type=submit] {
+  border: solid 0.8px #66c272;
+  border-radius: 20px 0px 0px 20px;
+  position: relative;
+  background-color: #66c272;
+  color: whitesmoke; }
+.sbar-reverse[type=text] {
+  border-radius: 0px 20px 20px 0px;
+  position: absolute;
+  border-left: none;
+  padding-left: 6px; }
+
+.sbar-google[type=submit] {
+  border-radius: 20px 0px 0px 20px;
+  position: relative;
+  border: 0.8px solid gray;
+  border-right: none;
+  background-color: white;
+  color: grey; }
+.sbar-google[type=text] {
+  border-radius: 0px 20px 20px 0px;
+  border-left: none;
+  position: absolute;
+  padding-left: 6px; }
 
 /*!
  * Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com
