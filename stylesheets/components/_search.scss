@@ -10,12 +10,17 @@ $sbar-border-width: 0.8px;
     /* SET SEARCHBAR WIDTH */
     width: 400px;
   }
+  &[type=submit] {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
 }
 .sbar-basic {
+  position: relative;
   &[type=text] {
     border-radius: $sbar-border-radius 0px 0px $sbar-border-radius;
     border-right: none;
-    position: relative;
+    // position: relative;
   }
   &[type=submit] {
     border-radius: 0px $sbar-border-radius $sbar-border-radius 0px;

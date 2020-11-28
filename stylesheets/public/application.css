@@ -100,17 +100,21 @@ h3 {
     border: 0.8px solid gray;
     /* SET SEARCHBAR WIDTH */
     width: 400px; }
+  .sbar[type=submit] {
+    padding-top: 12px;
+    padding-bottom: 12px; }
 
-.sbar-basic[type=text] {
-  border-radius: 30px 0px 0px 30px;
-  border-right: none;
+.sbar-basic {
   position: relative; }
-.sbar-basic[type=submit] {
-  border-radius: 0px 30px 30px 0px;
-  border: solid 0.8px #66c272;
-  background-color: #66c272;
-  color: whitesmoke;
-  position: absolute; }
+  .sbar-basic[type=text] {
+    border-radius: 30px 0px 0px 30px;
+    border-right: none; }
+  .sbar-basic[type=submit] {
+    border-radius: 0px 30px 30px 0px;
+    border: solid 0.8px #66c272;
+    background-color: #66c272;
+    color: whitesmoke;
+    position: absolute; }
 
 .sbar-reverse[type=submit] {
   border: solid 0.8px #66c272;
