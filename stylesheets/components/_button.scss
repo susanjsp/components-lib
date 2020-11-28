@@ -1,0 +1,40 @@
+.btn {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.2em;
+  color: white;
+  padding: 12px 24px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+  transition: 0.3s ease-in;
+  opacity: 0.9;
+  &:hover {
+    opacity: 1;
+ }
+}
+
+.btn-main {
+  background-color:#81cf7e;
+}
+.btn-border {
+  border: 1.5px solid black;
+  color: black;
+  padding: 12px 16px;
+  &:hover {
+    opacity: 0.5;
+  }
+}
+.btn-action {
+  background-color:rgba(255, 228, 138, 1);
+}
+
+.btn-add {
+  background: rgb(77,251,232);
+  background: linear-gradient(90deg, rgba(77,251,232,0.8440065681444991) 0%, rgba(154,191,242,0.7569786535303776) 44%, rgba(240,121,253,0.5599343185550082) 100%);
+  &:hover {
+    letter-spacing: 0.25em;
+  }
+}
