@@ -1,0 +1,22 @@
+//.searchbars
+.searchbar {
+  display: inline;
+  padding: 8px 24px;
+  border: 0.8px solid gray;
+  font-family: sans-serif;
+  &[type=text] {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-right: none;
+    position: relative;
+    /* SET SEARCHBAR WIDTH */
+    width: 350px;
+  }
+  &[type=submit] {
+    position: absolute;
+    border-radius: 0px 20px 20px 0px;
+    border-color: rgb(102, 194, 114);
+    background-color: rgb(102, 194, 114);
+    color: whitesmoke;
+  }
+}
