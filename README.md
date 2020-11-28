@@ -1,0 +1,1 @@
+Creating a components library with HTML, SCSS and some vanilla javascript
