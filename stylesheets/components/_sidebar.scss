@@ -4,7 +4,7 @@ body {
   display: inline-flex;
 }
 .sidebar {
-  width: 300px;
+  width: 400px;
   height: 99vh;
   border-right: 0.8px solid #cacaca;;
   position: sticky;
@@ -26,6 +26,8 @@ body {
   ul {
     list-style-type: none;
     padding: 0;
+    display: inline-block;
+    text-align: left;
   }
 }
 .sidebar-btns {

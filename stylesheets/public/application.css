@@ -192,7 +192,7 @@ body {
   display: inline-flex; }
 
 .sidebar {
-  width: 300px;
+  width: 400px;
   height: 99vh;
   border-right: 0.8px solid #cacaca;
   position: sticky;
@@ -212,7 +212,9 @@ body {
     margin-bottom: 16px; }
   .sidebar-content ul {
     list-style-type: none;
-    padding: 0; }
+    padding: 0;
+    display: inline-block;
+    text-align: left; }
 
 .sidebar-btns {
   line-height: 3em;
