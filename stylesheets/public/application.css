@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
 h3 {
   margin: 24px 0px; }
@@ -65,12 +66,15 @@ h3 {
     margin-bottom: 4px; }
   .card-content p {
     margin-bottom: 4px; }
+  .card-content .i-check {
+    color: #319fff; }
 
 .card-content-profile-rating {
   position: absolute;
   right: 8%;
   top: -20%;
-  text-align: center; }
+  text-align: center;
+  color: lightsalmon; }
 
 .card-avatar {
   object-fit: cover;
@@ -97,6 +101,79 @@ h3 {
     text-decoration: none;
     color: white;
     background-color: #929292; }
+
+#cards {
+  display: flex;
+  justify-content: space-evenly; }
+
+.smcard-container {
+  width: 350px;
+  box-shadow: 2px 2px 8px rgba(240, 240, 240, 0.8);
+  height: 350px; }
+  .smcard-container .fa-heart:hover {
+    color: #ff4c4c; }
+
+.smcard-img {
+  position: relative; }
+  .smcard-img img {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px 10px 0px 0px; }
+  .smcard-img i {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    color: white; }
+
+.smcard-content {
+  display: flex;
+  align-items: center;
+  padding: 6px;
+  border-radius: 0px 0px 10px 10px; }
+  .smcard-content img {
+    height: 36px;
+    width: 36px;
+    box-shadow: 2px 2px 8px rgba(240, 240, 240, 0.8);
+    border: none; }
+  .smcard-content h5 {
+    flex-grow: 1;
+    font-size: 1.1em;
+    margin: 2px 0 0 8px; }
+  .smcard-content i {
+    margin: 0 4px 0 8px;
+    color: grey;
+    transition: 0.2s ease-in; }
+  .smcard-content .fa-retweet:hover {
+    color: #82d066; }
+  .smcard-content .fa-comment-dots:hover {
+    color: #3cc2f7; }
+
+.travelcard-container {
+  color: white;
+  font-family: 'Abel', sans-serif;
+  text-transform: uppercase;
+  height: 400px;
+  width: 300px;
+  background-size: cover;
+  border-radius: 5px; }
+  .travelcard-container img {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    object-fit: cover; }
+  .travelcard-container h4 {
+    font-weight: 300; }
+  .travelcard-container a {
+    color: white;
+    text-decoration: none; }
+  .travelcard-container a:hover {
+    color: white;
+    text-decoration: none; }
+
+.travelcard-content {
+  padding: auto 32px; }
 
 .sbar {
   display: inline;
@@ -146,47 +223,6 @@ h3 {
   border-left: none;
   position: absolute;
   padding-left: 6px; }
-
-#cards {
-  display: flex;
-  justify-content: space-evenly; }
-
-.smcard-container {
-  width: 350px;
-  box-shadow: 2px 2px 8px rgba(240, 240, 240, 0.8);
-  height: 350px; }
-
-.smcard-img {
-  position: relative; }
-  .smcard-img img {
-    object-fit: cover;
-    object-position: center;
-    width: 100%;
-    height: 300px;
-    border-radius: 10px 10px 0px 0px; }
-  .smcard-img i {
-    position: absolute;
-    right: 5%;
-    top: 5%;
-    color: white; }
-
-.smcard-content {
-  display: flex;
-  align-items: center;
-  padding: 6px;
-  border-radius: 0px 0px 10px 10px; }
-  .smcard-content img {
-    height: 36px;
-    width: 36px;
-    box-shadow: 2px 2px 8px rgba(240, 240, 240, 0.8);
-    border: none; }
-  .smcard-content h5 {
-    flex-grow: 1;
-    font-size: 1.1em;
-    margin: 2px 0 0 8px; }
-  .smcard-content i {
-    margin: 0 4px 0 8px;
-    color: grey; }
 
 body {
   display: inline-flex; }

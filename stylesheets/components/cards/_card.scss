@@ -22,12 +22,16 @@
   p {
     margin-bottom: 4px;
   }
+  .i-check {
+    color: #319fff;
+  }
 }
 .card-content-profile-rating {
   position: absolute;
   right: 8%;
   top: -20%;
   text-align: center;
+  color: lightsalmon;
 }
 .card-avatar {
   object-fit: cover;

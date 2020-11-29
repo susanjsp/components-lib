@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+.travelcard-container {
+  color: white;
+  font-family: 'Abel', sans-serif;
+  text-transform: uppercase;
+  height: 400px;
+  width: 300px;
+  background-size: cover;
+  border-radius: 5px;
+  img {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  h4 {
+    font-weight: 300;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  a:hover {
+    color: white;
+    text-decoration: none;
+  }
+}
+.travelcard-content {
+  padding: auto 32px;
+}
