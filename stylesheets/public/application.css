@@ -1,6 +1,10 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
 h3 {
   margin: 24px 0px; }
+
+.container {
+  padding: 32px; }
 
 .btns {
   text-decoration: none;
@@ -189,18 +193,37 @@ body {
 
 .sidebar {
   width: 300px;
-  height: 100vh;
+  height: 99vh;
+  border-right: 0.8px solid #cacaca;
+  position: sticky;
+  top: 0;
+  font-family: 'Quicksand', sans-serif; }
+
+.sidebar-content {
   text-align: center;
-  border-right: 1px solid grey; }
-  .sidebar img {
+  margin-top: 150px; }
+  .sidebar-content img {
     height: 100px;
     width: 100px;
     border-radius: 50%;
     object-fit: cover;
-    position: center; }
-  .sidebar ul {
+    position: center;
+    box-shadow: 1px 1px 5px rgba(240, 240, 240, 0.8);
+    margin-bottom: 16px; }
+  .sidebar-content ul {
     list-style-type: none;
-    padding: none; }
+    padding: 0; }
+
+.sidebar-btns {
+  line-height: 3em;
+  padding: 8px 24px;
+  color: #949494;
+  border-radius: 30px;
+  transition: 0.2s linear; }
+  .sidebar-btns:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #cd87fc; }
 
 /*!
  * Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com
