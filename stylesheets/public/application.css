@@ -17,7 +17,8 @@ h3 {
   opacity: 0.8; }
   .btns:hover {
     opacity: 1;
-    color: white; }
+    color: white;
+    text-decoration: none; }
 
 .btns-main {
   background-color: #81cf7e; }
