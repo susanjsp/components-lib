@@ -1,0 +1,20 @@
+body {
+  display: inline-flex;
+}
+.sidebar {
+  width: 300px;
+  height: 100vh;
+  text-align: center;
+  border-right: 1px solid grey;
+  img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: center;
+  }
+  ul {
+    list-style-type: none;
+    padding: none;
+  }
+}
